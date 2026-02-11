@@ -2,7 +2,7 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import { MoodAnalysis } from "../types";
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_GEMINI_API_KEY });
 
 // Cooldown diperpanjang jadi 2 menit biar Gemini-nya nggak 'ngos-ngosan' kena spam.
 let cooldownUntil = 0;
