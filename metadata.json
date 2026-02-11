@@ -1,0 +1,7 @@
+{
+  "name": "Lumina Glass Player",
+  "description": "A high-fidelity media player featuring a modern glassmorphism UI, AI-powered mood analysis via Gemini, and a responsive flyout control system.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
